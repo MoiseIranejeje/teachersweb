@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Byiringiro Albert</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-name">Byiringiro Albert</a>
+                <div class="brand-subtitle">M.Ed., B.Ed.</div>
+            </div>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="publications.html" class="nav-link active">Publications</a></li>
+                <li><a href="contact.html" class="nav-link">Request Access</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="publications-page">
+        <section class="publications-header section-padding">
+            <div class="container">
+                <h1 class="page-title">Academic Publications</h1>
+                <p class="page-subtitle">Research articles, book chapters, and conference papers. All content is protected by copyright.</p>
+
+                <div class="publications-controls">
+                    <div class="search-box">
+                        <input type="text"
+                               class="publications-search"
+                               placeholder="Search publications...">
+                    </div>
+
+                    <div class="filter-buttons">
+                        <button class="filter-btn btn-sm active" data-filter="all">All</button>
+                        <button class="filter-btn btn-sm" data-filter="research">Research</button>
+                        <button class="filter-btn btn-sm" data-filter="review">Review</button>
+                        <button class="filter-btn btn-sm" data-filter="book">Book Chapter</button>
+                        <button class="filter-btn btn-sm" data-filter="2023">2023</button>
+                        <button class="filter-btn btn-sm" data-filter="2022">2022</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="publications-list section-padding bg-light">
+            <div class="container">
+                <div class="publications-grid">
+                    <!-- Publications will be loaded dynamically -->
+                    <div class="loading-message">
+                        <p>Loading publications...</p>
+                    </div>
+                </div>
+
+                <div class="publications-info">
+                    <div class="info-card">
+                        <h3>Access Information</h3>
+                        <p>All publications are available for online reading. For full download access, please submit a request explaining your intended use.</p>
+                        <ul>
+                            <li>✅ Online reading available</li>
+                            <li>✅ Abstract and citation visible</li>
+                            <li>⚠️ Download requires request</li>
+                            <li>⚠️ Commercial use restricted</li>
+                        </ul>
+                        <a href="contact.html" class="btn">Request Access</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="citation-guide section-padding">
+            <div class="container">
+                <h2 class="section-title">Proper Citation Guidelines</h2>
+                <div class="citation-content">
+                    <p>When citing any work from this portfolio, please use the appropriate citation format:</p>
+
+                    <div class="citation-example">
+                        <h4>APA Format Example:</h4>
+                        <code>
+                            Byiringiro, A. (2023). Culturally Responsive Pedagogy in Rwandan Secondary Education.
+                            <em>International Journal of Educational Excellence</em>, 12(3), 45-68.
+                        </code>
+                    </div>
+
+                    <div class="citation-notes">
+                        <h4>Important Notes:</h4>
+                        <ul>
+                            <li>Always cite the original publication source</li>
+                            <li>Include DOI if available</li>
+                            <li>Respect copyright restrictions</li>
+                            <li>Contact for permission for extensive quotations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-name">Byiringiro Albert, M.Ed., B.Ed.</div>
+                    <div class="footer-profession">Educationist · Researcher · Consultant</div>
+                </div>
+                <div class="footer-links">
+                    <a href="contact.html" class="footer-link">Request Publication Access</a>
+                    <div class="footer-copyright">
+                        © <span id="current-year"></span> All rights reserved. Content protected by copyright.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/publications.js"></script>
+    <script src="assets/js/security.js"></script>
+</body>
+</html>

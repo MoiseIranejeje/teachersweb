@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Access | Byiringiro Albert</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-name">Byiringiro Albert</a>
+                <div class="brand-subtitle">M.Ed., B.Ed.</div>
+            </div>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="contact.html" class="nav-link active">Request Access</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <section class="contact-header section-padding">
+            <div class="container">
+                <h1 class="page-title">Request Publication Access</h1>
+                <p class="page-subtitle">Submit a request for download access to academic publications</p>
+            </div>
+        </section>
+
+        <section class="contact-content section-padding bg-light">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Access Protocol</h2>
+                        <p>To protect intellectual property while facilitating academic exchange, all download requests are manually reviewed.</p>
+
+                        <div class="protocol-steps">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <h3>Submit Request</h3>
+                                    <p>Complete the form with your details and intended use.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <h3>Manual Review</h3>
+                                    <p>Requests are reviewed within 3-5 business days.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <h3>Temporary Access</h3>
+                                    <p>Approved requests receive time-limited download links.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">4</span>
+                                <div class="step-content">
+                                    <h3>Usage Tracking</h3>
+                                    <p>All downloads are logged and tracked for copyright compliance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-notes">
+                            <h3>Important Notes:</h3>
+                            <ul>
+                                <li>Requests from academic institutions are prioritized</li>
+                                <li>Commercial use requires separate licensing</li>
+                                <li>All downloads include embedded tracking</li>
+                                <li>Redistribution is strictly prohibited</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="access-request-form">
+                            <h2>Request Form</h2>
+
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="institution" class="form-label">Institution / Affiliation</label>
+                                <input type="text" id="institution" name="institution" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="publication" class="form-label">Publication Requested *</label>
+                                <select id="publication" name="publication" class="form-control" required>
+                                    <option value="">Select a publication...</option>
+                                    <!-- Will be populated by JavaScript -->
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="purpose" class="form-label">Intended Use *</label>
+                                <select id="purpose" name="purpose" class="form-control" required>
+                                    <option value="">Select purpose...</option>
+                                    <option value="research">Academic Research</option>
+                                    <option value="teaching">Teaching / Course Materials</option>
+                                    <option value="reference">Personal Reference</option>
+                                    <option value="review">Peer Review</option>
+                                    <option value="other">Other (specify below)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="details" class="form-label">Additional Details</label>
+                                <textarea id="details" name="details" class="form-control" rows="3"
+                                          placeholder="Please provide any additional information about your intended use..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="agree-terms" name="agree-terms" required>
+                                    <label for="agree-terms">
+                                        I agree to use the requested material solely for the stated purpose and will not redistribute it.
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="agree-citation" name="agree-citation" required>
+                                    <label for="agree-citation">
+                                        I agree to properly cite the work in any publications or presentations.
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn">Submit Request</button>
+                            </div>
+
+                            <div class="form-note">
+                                <p><small>You will receive a confirmation email and further instructions if your request is approved.</small></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-alternative section-padding">
+            <div class="container">
+                <h2 class="section-title">Alternative Contact Methods</h2>
+                <div class="alternative-options">
+                    <div class="option-card">
+                        <h3>Academic Collaboration</h3>
+                        <p>For research collaboration or joint publication inquiries, please include detailed proposal in your request.</p>
+                    </div>
+                    <div class="option-card">
+                        <h3>Speaking Engagements</h3>
+                        <p>For conference presentations, workshops, or guest lectures, specify event details in your request.</p>
+                    </div>
+                    <div class="option-card">
+                        <h3>Consultation Services</h3>
+                        <p>For educational consulting services, please outline project scope and requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-name">Byiringiro Albert, M.Ed., B.Ed.</div>
+                    <div class="footer-profession">Educationist · Researcher · Consultant</div>
+                </div>
+                <div class="footer-links">
+                    <a href="contact.html" class="footer-link">Request Publication Access</a>
+                    <div class="footer-copyright">
+                        © <span id="current-year"></span> All rights reserved. Content protected by copyright.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/publications.js"></script>
+    <script src="assets/js/security.js"></script>
+
+    <script>
+        // Populate publication dropdown
+        document.addEventListener('DOMContentLoaded', async function() {
+            try {
+                const response = await fetch('data/publications.json');
+                const data = await response.json();
+                const select = document.getElementById('publication');
+
+                data.publications.forEach(pub => {
+                    const option = document.createElement('option');
+                    option.value = pub.id;
+                    option.textContent = `${pub.title} (${pub.year})`;
+                    select.appendChild(option);
+                });
+
+                // Check if a specific publication was requested
+                const urlParams = new URLSearchParams(window.location.search);
+                const requestedPub = urlParams.get('pub') || sessionStorage.getItem('requestedPublicationId');
+
+                if (requestedPub) {
+                    select.value = requestedPub;
+                    sessionStorage.removeItem('requestedPublicationId');
+                }
+
+            } catch (error) {
+                console.error('Error loading publications:', error);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "publications": [
+    {
+      "id": "pub-001",
+      "title": "Culturally Responsive Pedagogy in Rwandan Secondary Education",
+      "authors": ["Byiringiro, Albert"],
+      "year": 2023,
+      "category": "Research Article",
+      "journal": "International Journal of Educational Excellence",
+      "volume": "12",
+      "issue": "3",
+      "pages": "45-68",
+      "abstract": "This study examines the implementation and effectiveness of culturally responsive pedagogical approaches in Rwandan secondary schools, analyzing teacher practices and student outcomes across diverse socioeconomic contexts.",
+      "keywords": ["culturally responsive pedagogy", "Rwanda", "secondary education", "teacher practices"],
+      "previewFile": "preview-pub-001.pdf",
+      "downloadRequestable": true,
+      "featured": true
+    },
+    {
+      "id": "pub-002",
+      "title": "Teacher Professional Development in East Africa: A Systematic Review",
+      "authors": ["Byiringiro, Albert", "Mukamana, Jeanne"],
+      "year": 2022,
+      "category": "Review Article",
+      "journal": "African Educational Research Journal",
+      "volume": "8",
+      "issue": "2",
+      "pages": "112-134",
+      "abstract": "A comprehensive systematic review of teacher professional development programs in East Africa from 2010-2020, identifying effective models and implementation challenges.",
+      "keywords": ["teacher development", "East Africa", "systematic review", "professional learning"],
+      "previewFile": "preview-pub-002.pdf",
+      "downloadRequestable": true,
+      "featured": true
+    },
+    {
+      "id": "pub-003",
+      "title": "Digital Literacy Integration in Primary Education: Case Studies from Rwanda",
+      "authors": ["Byiringiro, Albert"],
+      "year": 2021,
+      "category": "Research Article",
+      "journal": "Journal of Educational Technology",
+      "volume": "19",
+      "issue": "4",
+      "pages": "78-95",
+      "abstract": "Investigates the integration of digital literacy in Rwandan primary schools, examining infrastructure, teacher capacity, and student engagement across urban and rural settings.",
+      "keywords": ["digital literacy", "primary education", "Rwanda", "technology integration"],
+      "previewFile": "preview-pub-003.pdf",
+      "downloadRequestable": true,
+      "featured": false
+    },
+    {
+      "id": "pub-004",
+      "title": "Assessment Reform in Post-Conflict Education Systems",
+      "authors": ["Byiringiro, Albert"],
+      "year": 2020,
+      "category": "Book Chapter",
+      "book": "Educational Assessment in Developing Nations",
+      "publisher": "Springer International Publishing",
+      "pages": "145-167",
+      "abstract": "Analyzes assessment reform initiatives in post-conflict education systems, with particular focus on Rwanda's competency-based assessment framework implementation.",
+      "keywords": ["assessment reform", "post-conflict", "Rwanda", "competency-based"],
+      "previewFile": "preview-pub-004.pdf",
+      "downloadRequestable": true,
+      "featured": true
+    },
+    {
+      "id": "pub-005",
+      "title": "Inclusive Education Policy Implementation: A Multi-Stakeholder Analysis",
+      "authors": ["Byiringiro, Albert", "Niyigena, Pierre"],
+      "year": 2019,
+      "category": "Research Article",
+      "journal": "Journal of Inclusive Education",
+      "volume": "23",
+      "issue": "1",
+      "pages": "34-56",
+      "abstract": "Examines the implementation of inclusive education policies in Rwanda through analysis of stakeholder perspectives including policymakers, administrators, teachers, and parents.",
+      "keywords": ["inclusive education", "policy implementation", "Rwanda", "stakeholder analysis"],
+      "previewFile": "preview-pub-005.pdf",
+      "downloadRequestable": true,
+      "featured": false
+    }
+  ]
+}

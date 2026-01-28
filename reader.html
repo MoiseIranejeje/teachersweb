@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader | Byiringiro Albert</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reader.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-name">Byiringiro Albert</a>
+                <div class="brand-subtitle">M.Ed., B.Ed.</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="publications.html" class="nav-link">Back to Publications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="reader-container">
+        <div class="container">
+            <div class="reader-header">
+                <div class="reader-header-content">
+                    <h1 class="reader-title">Loading...</h1>
+                    <div class="reader-controls">
+                        <button class="btn btn-outline btn-sm btn-prev">
+                            <span>←</span> Previous
+                        </button>
+                        <span class="page-info">Page 1 of --</span>
+                        <button class="btn btn-outline btn-sm btn-next">
+                            Next <span>→</span>
+                        </button>
+                        <button class="btn btn-sm btn-request-full">
+                            Request Full Access
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pdf-viewer-container">
+                <!-- PDF Viewer and Watermark will be injected here -->
+                <div class="pdf-loading">
+                    <div class="spinner"></div>
+                    <p>Loading document preview...</p>
+                </div>
+            </div>
+
+            <div class="reader-disclaimer">
+                <h3 class="disclaimer-title">Copyright Notice</h3>
+                <p class="disclaimer-text">
+                    This document is protected by copyright law. You are viewing a limited preview for personal research purposes only.
+                </p>
+                <ul class="disclaimer-list">
+                    <li>Do not reproduce, distribute, or display this content without permission.</li>
+                    <li>Screenshots and printing are disabled for this preview.</li>
+                    <li>Request full access for educational or research use.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/reader.js"></script>
+    <script src="assets/js/security.js"></script>
+</body>
+</html>
